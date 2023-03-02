@@ -5,6 +5,7 @@ import random
 hidden_number = random.randint(0,100)
 
 print("Guess the Number!\n")
+
 # Use a looping function for the 10 chances/trials
 for n in range(0,10):
     guess = int(input("Enter a number between 1 and 100: "))
